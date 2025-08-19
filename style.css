@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#seat-plan {
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.seat {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background: #4caf50;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.seat.booked {
+  background: #e74c3c;
+}
